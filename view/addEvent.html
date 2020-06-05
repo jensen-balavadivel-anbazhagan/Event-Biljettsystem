@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Management</title>
+<link rel="stylesheet" href="css/registerForm.css" type="text/css">
+<link rel="stylesheet" href="css/common.css" type="text/css">
+</head>
+
+<body>
+    <!-- Top header menu containing 
+         logo and Navigation bar -->
+              
+        <!-- Navigation Menu -->
+        <nav class="menuBar" id="nav"> 
+        </nav> 
+	<div class="wrapper">
+		<div id="registerDiv" class="inner">
+			<h1>Add Event</h1>
+
+			<div class="form-wrapper">
+				<input type="text" id="eventName" placeholder="Event Name"
+					required="required" class="form-control" />
+			</div>
+
+			<div class="form-wrapper">
+				<input type="text" id="location" placeholder="Where"
+					required="required" class="form-control" />
+
+			</div>
+			<div class="form-group">
+
+				<div class="form-wrapper">
+					<input type="date" id="date" placeholder="Event Date"
+						required="required" class="form-control" />
+
+				</div>
+
+				<div class="form-wrapper">
+
+					<input type="time" id="fromTime" placeholder="From Time"
+						required="required" class="form-control" />
+				</div>
+
+
+			</div>
+
+			<div class="form-wrapper">
+				<input type="text" id="noOfTickets"
+					placeholder="Total no of tickets" required="required"
+					class="form-control" />
+			</div>
+
+			<div class="form-wrapper">
+				<input type="text" id="price" placeholder="Price per Ticket"
+					required="required" class="form-control" />
+			</div>
+			<button id="addClick" class="button">Add Event</button>
+			
+			<div class="inner">
+				<h6>
+					<a href="addEvent"> Refresh</a>
+				</h6>
+
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+
+
+	<script src="/js/event.js"></script>
+	<script src="/js/menu.js"></script>
+</body>
+</html>

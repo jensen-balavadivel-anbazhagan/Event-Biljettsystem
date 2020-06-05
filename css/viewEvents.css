@@ -1,0 +1,193 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #666;
+	font-size: 13px;
+	margin: 0;
+}
+
+input, textarea, select, button, label {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	font-size: 13px;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+:focus {
+	outline: none;
+}
+
+.wrapper {
+	min-height: 100vh;
+		/*background: url("../images/bg-registration-form-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	background-color: #F39440;
+	display: flex;
+	align-items: center;
+}
+
+.inner {
+	 width: 800px;
+	margin: auto;
+	padding-top: 68px;
+	padding-bottom: 48px;
+	position : relative;
+}
+
+.inner h1, h3, h6 {
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-bottom: 32px;
+	color: #333;
+	letter-spacing: 2px;
+}
+
+.eventSection {
+	display: flex;
+	flex-direction: column;
+	flex-grow: inherit;
+	padding: 5% 10%;
+	height: inherit;
+	width: 100%;
+	position : relative;
+}
+
+.item {
+	padding: 20px 30px;
+	width: max-content;
+	display: flex;
+	flex-direction: row;
+	flex: 0 0 50%;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	flex-grow: 1;
+	height: max-content;
+	color: black;
+}
+
+.date {
+	border: 1px solid black ;
+	padding: 80px 20px ;
+	color: black;
+	height: max-content;
+}
+
+.buttons {
+	position: relative;
+	padding: 80px 20px ;
+	margin-right: 60px;
+	color: black;
+	height: fit-content;
+}
+
+.addButton {
+	background-color: #ae3c33;
+	border: 3px solid black;
+	border-top: none;
+	border-right: none;
+	color: black;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+}
+
+.description .image {
+	margin-right: 50px;
+}
+
+.description .image img {
+	width: 150px;
+	height: 150px;
+}
+
+.description {
+	padding: 80px 20px ;
+	margin-right: 60px;
+	width: max-content;
+	height: max-content;
+}
+
+.description span {
+	display: block;
+	font-size: 14px;
+	color: black;
+	font-weight: 400;
+}
+
+.description span:first-child {
+	margin-bottom: 5px;
+}
+
+.description span:last-child {
+	font-weight: 300;
+	margin-top: 8px;
+	color: black;
+}
+
+@media (max-width: 991px) {
+	.inner {
+	  min-width: max-content; 
+	} 
+	.wrapper {
+		width: fit-content;
+	}
+	.item {
+		width: fit-content;
+	}
+	}
+  @media (max-width: 767px) {
+	.wrapper {
+		width: fit-content;
+	}
+	.inner {
+	  width: max-content;
+	  background: none;
+	  padding-top: 0;
+	  padding-bottom: 0; }
+  
+	  .eventSection {
+	  width: 10%;
+	  padding-right: 15px;
+	  padding-left: 15px; } }
+
+	  .item {
+		padding: 20px 30px;
+		width: max-content;
+		display: flex;
+		flex-direction: row;
+		flex: 0 0 50%;
+		background-color: transparent;
+		border-bottom: 1px solid black;
+		flex-grow: 1;
+		height: max-content;
+		color: black;
+	}

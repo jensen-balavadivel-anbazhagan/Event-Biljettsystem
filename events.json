@@ -1,0 +1,54 @@
+{
+  "books": [
+    {
+      "isbn": "9781593275846",
+      "title": "Eloquent JavaScript, Second Edition",
+      "author": "Marijn Haverbeke",
+      "image": "https://eloquentjavascript.net/2nd_edition/img/cover.png",
+      "price": "239",
+      "quantity": 1
+    },
+    {
+      "isbn": "9781449331818",
+      "title": "Learning JavaScript Design Patterns",
+      "author": "Addy Osmani",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51WcKTLClUL.jpg",
+      "price": "400",
+      "quantity": 1
+    },
+    {
+      "isbn": "9781449365035",
+      "title": "Speaking JavaScript",
+      "author": "Axel Rauschmayer",
+      "image": "http://speakingjs.com/es5/orm_front_cover.jpg",
+      "price": "294",
+      "quantity": 1
+    },
+    {
+      "isbn": "9781491950296",
+      "title": "Programming JavaScript Applications",
+      "author": "Eric Elliott",
+      "image": "https://m.media-amazon.com/images/I/512Hli3f6FL._SR500,500_.jpg",
+      "price": "239",
+      "quantity": 1
+    }
+  ],
+  "cart": [],
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "username": "staff",
+      "password": "staff",
+      "role": "staff"
+    },
+    {
+      "username": "user",
+      "password": "user",
+      "role": "user"
+    }
+  ]
+}
